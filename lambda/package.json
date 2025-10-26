@@ -1,0 +1,19 @@
+{
+  "name": "product-specifications-lambda",
+  "version": "1.0.0",
+  "description": "Lambda functions for Product Specifications API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.658.1",
+    "@aws-sdk/lib-dynamodb": "^3.658.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}
